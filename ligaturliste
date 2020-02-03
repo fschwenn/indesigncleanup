@@ -1,0 +1,107 @@
+(r|p|l|n|f)f(f|t) # $1f~j$2
+
+(Umlauf|auflauf|Auflauf|ablauf|Ablauf|anlauf|Anlauf|Vorlauf|Kreislauf|darstellungsauf|Darstellungsauf|griff|Griff|hinauf|Hinauf|schirmauf)(f|l|i|t) # $1~j$2
+\b([aA]uf)(f|l|t|i) # $1~j$2
+([aA]utobahnauf)fahrt # $1~jfahrt
+### \b([bB])(egreif|egriff|ehilf|eruf|rief)lich # $1$2~jlich
+flich\b # f~jlich
+flich(e|er|ere|eren|erer|eres|erem|es|em|en|ste|ster|stes|stem|sten|keit|st)\b # f~jlich$1
+([bB]ischöf)l # $1~jl
+\b([bB]ox[ck]al)f # $1~jf
+(dampf|Dampf|ruckkopf|freiberuf|Freiberuf|kopf|Kopf|schwef|Schwef|tarif|Tarif|erzweif|bezweif|Bezweif|Anzweif|teuf|Teuf|schnüff|Schnüff)(f|i|l|t) # $1~j$2
+\b([dD]arauf)folg # $1~jfolg
+\b([dD]rauf)(leg|los) # $1~j$2
+###\b(dörf|Dörf|widerruf|Widerruf|reif|Reif|verwerf|Verwerf|glimpf|Glimpf|höf|Höf|streif|Streif|schimpf|Schimpf|treff|Treff)lich # $1~jlich
+###([kK]ampf)flug # $1~jflug
+([kK]auf)(leute|index|indizes|indices|laune|leidenschaft|leitung|tüchtig) # $1~j$2
+(elf|Elf|fünf|Fünf|zwölf|Zwölf)(fach|fing|linge|tausend|türig|ton) # $1~j$2
+\b([eE]rstauf)(f|l) # $1~j$2
+([aA]uf)(führ|lös|fass|füll|lage|forder|falt) # $1~j$2
+###(andgreif|auptberuf|ebenberuf|orberuf|vortreff|Vortreff)lich # $1~jlich
+\b([hH]ilf)los # $1~jlos
+\b([hH]of)(fähig|landwirt|intrige) # $1~j$2
+\b(Hof|Dorf|Biohof|Ruf|Lauf|Pfeif)(l|i) # $1~j$2
+\b(Dorf|Biohof|Ruf|Tauf|Lauf|lauf|Pfeif)(t|f) # $1~j$2
+\b([kK]ampf)(t|f|l|i) # $1~j$2
+\b(Arbeitskampf|Wahlkampf)(t|f|l|i) # $1~j$2
+\b([kK]auf)(fahr|frau|interess|laden|leute|lust|läden) # $1~j$2
+### ([sS]träf)(ling|lich) # $1~j$2
+([sS]toff)(tank|industrie|ingenieur|index|indices|indizes|flasche) # $1~j$2
+\b([kK]niff)lig # $1~jlig
+\b([kK]reislauf)leid # $1~jleid
+###([kK]äuf)lich # $1~jlich
+###\b([lL]auf)(f|i|l|t) # $1~j$2
+
+###\b([lL]öff)ler # $1~jler
+###([sS]chnüff)ler # $1~jler
+###\b([zZ]weif)ler # $1~jler
+###([dD]örf)ler # $1~jler
+
+f(ler|lerin|lerinnen|lers|lern)\b # f~j$1
+
+###([gG]räf)lich # $1~jlich
+\b([oO]ff)line # $1~jline
+\b([pP]rüf)(f|i|l|t) # $1~j$2
+\b([rR]auf)lust # $1~jlust
+\b([sS]chöpf)(löff) # $1~j$2
+([bB]rief)(funktion) # $1~j$2
+\bBrief(f|l|i|t) # Brief~j$1
+\b([sS]traf)(fähig|fällig|lager|los) # $1~j$2
+\b([sS]träf)l # $1~jl
+\b([sS]umpf)(t|f|l|i) # $1~j$2
+\b([tT]ief)(t|f|l) # $1~j$2
+\b([sS]chaf)(fell|leder) # $1~j$2
+(f|l)(leins?|linge?|lings|lingen)\b # $1~j$2
+\b([sS]chief)(t|i|f|l) # $1~j$2
+\b([sS]chlaf)(trunken|los) # $1~j$2
+\b([sS]chlupf)(l[[=o=]]ch) # $1~j$2
+\b([tT]äuf)ling # $1~jling
+\b([wW]aldorf)lehr # $1~jlehr
+\b([wW]iederauf)(f|l|i|t) # $1~j$2
+finstrument # f~jinstrument
+\b([uU]nauf)(f|l|i|t) # $1~j$2
+###\b(unbegreif|Unbegreif|unerschöpf|Unerschöpf|unhöf|Unhöf|unverkäuf|Unverkäuf|unwiderruf|Unwiderruf|unglimpf|Unglimpf)lich # $1~jlich
+
+(of|Of|ef|Ef|af|Af)(fiz|fekt) # $1~j$2
+\baffin # af~jfin
+\b(Dürf|dürf|Durf|durf|Kämpf|kämpf|Fünf|fünf|Elf|elf|Zwölf|zwölf|Streif|streif|Schrumpf|schrumpf|Kauf|kauf|Erhoff|erhoff|Hoff|hoff|Umkreis|umkreis|Kreis|kreis|Geprüf|geprüf|Erschöpf|erschöpf|wuss|Wuss|muss|Muss)(te|tet|ten|test)\b # $1~j$2
+([dD])ifferen # $1~jifferen
+([mM])isstrau # $1iss~jtrau
+gstrakt\b # gs~jtrakt
+fle\b # f~jle
+\b([rR]af)fin # $1~jfin
+
+\b([cC]hef)(f|l|i|t) # $1~j$2
+\b([wW]ürf)(f|l|i|t) # $1~j$2
+
+sste\b # ss~jte
+
+Hufform # Huf~jform
+Knopf(l[[=o=]]ch) # Knopf~j$1
+Schlaf(forsch|frisur|lied|therap) # Schlaf~j$1
+(straf|Straf)(f[[=a=]]ll|forder|frisch|termin|tendenz|team|technisch|theologisch|tor|tribunal|tilg|tarif) # $1~j$2
+### Tarif(fall|forder|front) # Tarif~j$1
+###trefflich # treff~jlich
+
+\bA(n|b)ruff # A$1ruf~jf
+\baufisst\b # auf~jisst
+Surfladen # Surf~jladen
+\b(Wurf|Golf|Lauf|Stoff|Kunststoff|Sauerstoff|Schiff)(l|f|i|t) # $1~j$2
+Schlaf(tablette|teddy|tee|tod|temperatur|therapeut|trank|trunk|tier) # Schlaf~j$1
+(Pfeif|Ruf)ton $ $1~jton
+Sauftrottel # Sauf~jtrottel
+Losstein # Los~jstein
+
+Schilfinsel # Schilf~jinsel
+Eingreiftrupp # Eingreif~jtrupp
+Stieft # Stief~jt
+Streiflicht # Sreif~jlicht
+
+
+fj # f~jj
+fh # f~jh
+fk # f~jk
+fb # f~jb
+
+
+
