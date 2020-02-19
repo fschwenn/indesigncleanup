@@ -16,8 +16,8 @@ function main() {
 	app.changeGrepPreferences = NothingEnum.NOTHING;
 	try {
 		app.findChangeGrepOptions.properties = ({includeFootnotes:true, kanaSensitive:true, widthSensitive:true});
-		app.findGrepPreferences.properties = ({findWhat:"(r|p|l|n|f)f(f|t)"});
-		app.changeGrepPreferences.properties = ({changeTo:"$1f~j$2", fillColor:"C=75 M=5 Y=100 K=0"});
+		app.findGrepPreferences.properties = ({findWhat:"(r|p|l|n|f)f(f|t)(\\l)"});
+		app.changeGrepPreferences.properties = ({changeTo:"$1f~j$2$3", fillColor:"C=75 M=5 Y=100 K=0"});
 		changeObject.changeGrep();
 		app.findGrepPreferences.properties = ({findWhat:"(Umlauf|auflauf|Auflauf|ablauf|Ablauf|anlauf|Anlauf|Vorlauf|Kreislauf|darstellungsauf|Darstellungsauf|griff|Griff|hinauf|Hinauf|schirmauf)(f|l|i|t)"});
 		app.changeGrepPreferences.properties = ({changeTo:"$1~j$2", fillColor:"C=75 M=5 Y=100 K=0"});

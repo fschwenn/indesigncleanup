@@ -1,4 +1,4 @@
-(r|p|l|n|f)f(f|t) # $1f~j$2
+(r|p|l|n|f)f(f|t)(\l) # $1f~j$2$3
 
 (Umlauf|auflauf|Auflauf|ablauf|Ablauf|anlauf|Anlauf|Vorlauf|Kreislauf|darstellungsauf|Darstellungsauf|griff|Griff|hinauf|Hinauf|schirmauf)(f|l|i|t) # $1~j$2
 \b([aA]uf)(f|l|t|i) # $1~j$2
