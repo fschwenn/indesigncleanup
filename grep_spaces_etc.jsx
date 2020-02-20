@@ -22,10 +22,10 @@ function main() {
 		changeObject.changeGrep();
 		
 		// spaces at end of line
-		app.findChangeGrepOptions.properties = ({includeFootnotes:true, kanaSensitive:true, widthSensitive:true});
-		app.findGrepPreferences.properties = ({findWhat:"(...)\\s+$"});
-		app.changeGrepPreferences.properties = ({changeTo:"$1", fillColor:"C=75 M=5 Y=100 K=0"});
-		changeObject.changeGrep();
+		//app.findChangeGrepOptions.properties = ({includeFootnotes:true, kanaSensitive:true, widthSensitive:true});
+		//app.findGrepPreferences.properties = ({findWhat:"(...)\\s+$"});
+		//app.changeGrepPreferences.properties = ({changeTo:"$1", fillColor:"C=75 M=5 Y=100 K=0"});
+		//changeObject.changeGrep();
 		
 		// remove double spaces
 		app.findChangeGrepOptions.properties = ({includeFootnotes:true, kanaSensitive:true, widthSensitive:true});
